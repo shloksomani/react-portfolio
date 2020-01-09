@@ -2,9 +2,10 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://shloksomani.github.io/react-portfolio/",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.2.0",
     "jquery": "^3.4.1",
     "lightbox2": "^2.11.0",
     "node-sass": "^4.12.0",
