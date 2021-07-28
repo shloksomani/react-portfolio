@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1565444979105" clover="3.2.0">
+  <project timestamp="1565444979105" name="All files">
+    <metrics statements="33" coveredstatements="32" conditionals="21" coveredconditionals="20" methods="6" coveredmethods="6" elements="60" coveredelements="58" complexity="0" loc="33" ncloc="33" packages="1" files="1" classes="1"/>
+    <file name="index.js" path="/home/mike/shop_up/projects/react-typed/src/index.js">
+      <metrics statements="33" coveredstatements="32" conditionals="21" coveredconditionals="20" methods="6" coveredmethods="6"/>
+      <line num="6" count="7" type="stmt"/>
+      <line num="15" count="7" type="stmt"/>
+      <line num="18" count="7" type="stmt"/>
+      <line num="20" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="2" type="stmt"/>
+      <line num="32" count="10" type="stmt"/>
+      <line num="34" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="35" count="3" type="stmt"/>
+      <line num="38" count="10" type="stmt"/>
+      <line num="40" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="41" count="3" type="stmt"/>
+      <line num="44" count="10" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="50" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="57" count="3" type="stmt"/>
+      <line num="59" count="3" type="stmt"/>
+      <line num="60" count="3" type="stmt"/>
+      <line num="61" count="10" type="cond" truecount="4" falsecount="0"/>
+      <line num="62" count="1" type="stmt"/>
+      <line num="63" count="1" type="stmt"/>
+      <line num="65" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="66" count="6" type="stmt"/>
+      <line num="68" count="9" type="stmt"/>
+      <line num="70" count="3" type="cond" truecount="4" falsecount="0"/>
+      <line num="71" count="1" type="stmt"/>
+      <line num="73" count="3" type="stmt"/>
+      <line num="75" count="0" type="stmt"/>
+      <line num="79" count="10" type="stmt"/>
+      <line num="81" count="10" type="stmt"/>
+      <line num="83" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="84" count="1" type="stmt"/>
+      <line num="89" count="10" type="stmt"/>
+      <line num="100" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

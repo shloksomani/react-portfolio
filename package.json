@@ -4,18 +4,18 @@
   "private": true,
   "homepage": "https://shloksomani.github.io/react-portfolio/",
   "dependencies": {
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.6.0",
     "gh-pages": "^2.2.0",
-    "jquery": "^3.4.1",
-    "lightbox2": "^2.11.0",
+    "jquery": "^3.6.0",
+    "lightbox2": "^2.11.3",
     "node-sass": "^4.12.0",
     "normalize.css": "^8.0.1",
-    "popper.js": "^1.15.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "^3.3.0",
-    "react-typed": "^1.1.2",
-    "typed.js": "^2.0.10"
+    "popper.js": "^1.16.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-scripts": "^3.4.4",
+    "react-typed": "^1.2.0",
+    "typed.js": "^2.0.12"
   },
   "scripts": {
     "predeploy": "npm run build",

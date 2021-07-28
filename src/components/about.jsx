@@ -1,50 +1,54 @@
 import React from "react";
-import myImage from "../img/myImage.png";
+import img from "../img/myImage.png";
+import img2 from "../img/myImage.png";
 
 class About extends React.Component {
   constructor() {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+        { id: "HTML5_skill", content: "HTML5", percentage: "80%", value: "80" },
+        { id: "CSS3_skill", content: "CSS3", percentage: "75%", value: "75" },
         {
           id: "JavaScript_skill",
           content: "JavaScript",
-          porcentage: "90%",
+          percentage: "90%",
           value: "90"
         },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
+       
         {
           id: "ReactJS_skill",
           content: "ReactJS",
-          porcentage: "80%",
+          percentage: "80%",
           value: "80"
         },
         {
           id: "Python_skill",
           content: "Python",
-          porcentage: "75%",
+          percentage: "75%",
           value: "75"
         },
         {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
+          id: "Backend Skill",
+          content: "Nodejs",
+          percentage: "90%",
+          value: "90%"
         },
         {
-          id: "Wordpress_skill",
-          content: "Wordpress",
-          porcentage: "80%",
-          value: "80"
-        }
+          id: "state management tool",
+          content: "Redux",
+          percentage: "90%",
+          value: "90%"
+        },
+        
+        
+        
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+          "I am a self driven, highly motivated, Constant and forever learner. My passion lies in designing and building highly scalable, accessible applications and websites for the todays business and strategic needs. I am a recent Graduate from Lambda School online for full stack web development and technical interviewing. I am currently searching for a role that focuses in React.js and The MERN stack for the most part. MongoDB and Express, as well as React and Node have become my favorite tools in my toolkit. and I continue to learn more about them each and every day as you will see in my ever changing projects page. Have a look around. Learn a little about me and if you like what you see then feel free to click the link to my resume, github,and linkedin profiles to learn more. I am open to work and actively pursuing my React development career"
         },
         {
           id: "second-p-about",
