@@ -44,6 +44,7 @@ class Intro extends React.Component {
           </div>
         </div>
       </div>
+    // </div>
     );
   }
 }

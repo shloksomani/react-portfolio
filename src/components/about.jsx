@@ -53,7 +53,7 @@ class About extends React.Component {
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "For the past two years I have focused everything I have into a career change from the medical systems maintenance field to the software development and I.T. field. I have built many different applications and web sites, as well as contributed to many existing applications and web pages. With experience in a variety of languages, frameworks, and development tools i have learned to take a large scale problem and break it down into bite size, doable chunks of tasks. For some examples of my work please see the projects section. "
         },
         {
           id: "third-p-about",
@@ -90,7 +90,7 @@ class About extends React.Component {
                       </div>
                     </div>
                     <div className="skill-mf">
-                      {/* <p className="title-s">Skill</p> */}
+                      <p className="title-s">Skill</p>
                       {this.state.skills.map(skill => {
                         return (
                           <React.Fragment key={skill.id}>
