@@ -22,7 +22,10 @@
     "fetchSpec": "5.2.2"
   },
   "_requiredBy": [
-    "/loader-utils"
+    "/adjust-sourcemap-loader/loader-utils",
+    "/loader-utils",
+    "/react-dev-utils/loader-utils",
+    "/resolve-url-loader/loader-utils"
   ],
   "_resolved": "https://registry.npmjs.org/big.js/-/big.js-5.2.2.tgz",
   "_spec": "5.2.2",
