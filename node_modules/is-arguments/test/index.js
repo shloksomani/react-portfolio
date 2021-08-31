@@ -2,7 +2,7 @@
 
 var test = require('tape');
 var isArguments = require('../');
-var hasToStringTag = typeof Symbol === 'function' && typeof Symbol.toStringTag === 'symbol';
+var hasToStringTag = require('has-tostringtag/shams')();
 
 test('primitives', function (t) {
 	t.notOk(isArguments([]), 'array is not arguments');

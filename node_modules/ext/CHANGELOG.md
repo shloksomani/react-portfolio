@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/medikoo/es5-ext/compare/v1.3.0...v1.5.0) (2021-08-23)
+
+### Features
+
+- `Promise.limit` ([060a05d](https://github.com/medikoo/es5-ext/commit/060a05d4751cd291c6dd7641f5a73ba9338ea7ab))
+- `String.prototype.includes` ([ceebe8d](https://github.com/medikoo/es5-ext/commit/ceebe8dfd6f479d6a7e7b6cd79369291869ee2dd))
+- `charset` option for `String.random` ([2a20eeb](https://github.com/medikoo/es5-ext/commit/2a20eebc5ae784e5c1aacd2c54433fe92a9464c9))
+
 ## [1.4.0](https://github.com///compare/v1.3.0...v1.4.0) (2019-11-29)
 
 ### Features

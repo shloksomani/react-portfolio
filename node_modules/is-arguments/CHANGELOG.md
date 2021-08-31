@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.1](https://github.com/inspect-js/is-arguments/compare/v1.1.0...v1.1.1) - 2021-08-05
+
+### Commits
+
+- [actions] use `node/install` instead of `node/run`; use `codecov` action [`dd28b30`](https://github.com/inspect-js/is-arguments/commit/dd28b30f4237fac722f2ce05b0c1d7e63c4a81e4)
+- [meta] do not publish github action workflow files [`87e489c`](https://github.com/inspect-js/is-arguments/commit/87e489cc77b709b96e73aaf9f9b2cd6da48f4960)
+- [readme] fix repo URLs [`e2c2c6e`](https://github.com/inspect-js/is-arguments/commit/e2c2c6ee34ca21be4b19d282d96dd7ab75b63ae3)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `tape` [`b9ae62b`](https://github.com/inspect-js/is-arguments/commit/b9ae62b3a08a5fe84519865192e6287d5b6966f7)
+- [readme] add github actions/codecov badges [`504c0a5`](https://github.com/inspect-js/is-arguments/commit/504c0a508dc313eae5942b1e35b2d031948de143)
+- [Fix] use `has-tostringtag` to behave correctly in the presence of symbol shams [`dc29e52`](https://github.com/inspect-js/is-arguments/commit/dc29e521d71da420414110919a1e0fde8ec6eba3)
+- [Dev Deps] update `auto-changelog`, `eslint`, `tape` [`a966d25`](https://github.com/inspect-js/is-arguments/commit/a966d25535c5f050ca5ce43a1559f93698a7130b)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `tape` [`1218944`](https://github.com/inspect-js/is-arguments/commit/12189445a195558fdccebe099c699272d2082aa8)
+- [meta] use `prepublishOnly` script for npm 7+ [`757dbee`](https://github.com/inspect-js/is-arguments/commit/757dbee3ec6f6225d4c7c91582e045cc1183dbd8)
+- [Deps] update `call-bind` [`b206f05`](https://github.com/inspect-js/is-arguments/commit/b206f059571c430375c632e40dd29249fa76a8fd)
+- [actions] update workflows [`b89b2f1`](https://github.com/inspect-js/is-arguments/commit/b89b2f1ab98bedebdf97d2397246030a1132c84e)
+
 ## [v1.1.0](https://github.com/inspect-js/is-arguments/compare/v1.0.4...v1.1.0) - 2020-12-04
 
 ### Commits

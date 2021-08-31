@@ -1,3 +1,4 @@
+/* global ActiveXObject -- old IE, WSH */
 var anObject = require('../internals/an-object');
 var defineProperties = require('../internals/object-define-properties');
 var enumBugKeys = require('../internals/enum-bug-keys');
@@ -52,10 +53,13 @@ var NullProtoObjectViaIFrame = function () {
 var activeXDocument;
 var NullProtoObject = function () {
   try {
-    /* global ActiveXObject -- old IE */
-    activeXDocument = document.domain && new ActiveXObject('htmlfile');
+    activeXDocument = new ActiveXObject('htmlfile');
   } catch (error) { /* ignore */ }
-  NullProtoObject = activeXDocument ? NullProtoObjectViaActiveX(activeXDocument) : NullProtoObjectViaIFrame();
+  NullProtoObject = typeof document != 'undefined'
+    ? document.domain && activeXDocument
+      ? NullProtoObjectViaActiveX(activeXDocument) // old IE
+      : NullProtoObjectViaIFrame()
+    : NullProtoObjectViaActiveX(activeXDocument); // WSH
   var length = enumBugKeys.length;
   while (length--) delete NullProtoObject[PROTOTYPE][enumBugKeys[length]];
   return NullProtoObject();

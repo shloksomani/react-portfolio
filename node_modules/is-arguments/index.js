@@ -1,6 +1,6 @@
 'use strict';
 
-var hasToStringTag = typeof Symbol === 'function' && typeof Symbol.toStringTag === 'symbol';
+var hasToStringTag = require('has-tostringtag/shams')();
 var callBound = require('call-bind/callBound');
 
 var $toString = callBound('Object.prototype.toString');

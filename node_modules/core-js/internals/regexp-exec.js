@@ -1,6 +1,7 @@
 'use strict';
-/* eslint-disable regexp/no-assertion-capturing-group, regexp/no-empty-group, regexp/no-lazy-ends -- testing */
+/* eslint-disable regexp/no-empty-capturing-group, regexp/no-empty-group, regexp/no-lazy-ends -- testing */
 /* eslint-disable regexp/no-useless-quantifier -- testing */
+var toString = require('../internals/to-string');
 var regexpFlags = require('../internals/regexp-flags');
 var stickyHelpers = require('../internals/regexp-sticky-helpers');
 var shared = require('../internals/shared');
@@ -31,9 +32,10 @@ var PATCH = UPDATES_LAST_INDEX_WRONG || NPCG_INCLUDED || UNSUPPORTED_Y || UNSUPP
 
 if (PATCH) {
   // eslint-disable-next-line max-statements -- TODO
-  patchedExec = function exec(str) {
+  patchedExec = function exec(string) {
     var re = this;
     var state = getInternalState(re);
+    var str = toString(string);
     var raw = state.raw;
     var result, reCopy, lastIndex, match, i, object, group;
 
@@ -57,9 +59,9 @@ if (PATCH) {
         flags += 'g';
       }
 
-      strCopy = String(str).slice(re.lastIndex);
+      strCopy = str.slice(re.lastIndex);
       // Support anchored sticky behavior.
-      if (re.lastIndex > 0 && (!re.multiline || re.multiline && str[re.lastIndex - 1] !== '\n')) {
+      if (re.lastIndex > 0 && (!re.multiline || re.multiline && str.charAt(re.lastIndex - 1) !== '\n')) {
         source = '(?: ' + source + ')';
         strCopy = ' ' + strCopy;
         charsAdded++;

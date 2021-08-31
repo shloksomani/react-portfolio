@@ -1,4 +1,4 @@
-# find-cache-dir [![Build Status](https://travis-ci.org/avajs/find-cache-dir.svg?branch=master)](https://travis-ci.org/avajs/find-cache-dir) [![Coverage Status](https://coveralls.io/repos/github/avajs/find-cache-dir/badge.svg?branch=master)](https://coveralls.io/github/avajs/find-cache-dir?branch=master)
+# find-cache-dir [![Coverage Status](https://codecov.io/gh/avajs/find-cache-dir/branch/master/graph/badge.svg)](https://codecov.io/gh/avajs/find-cache-dir/branch/master)
 
 > Finds the common standard cache directory
 
@@ -103,13 +103,12 @@ This is helpful for actually putting actual files in the cache!
 
 ## Adopters
 
-- [`AVA`](https://ava.li)
+- [`ava`](https://avajs.dev)
 - [`nyc`](https://github.com/istanbuljs/nyc)
-- [`Storybook`](https://storybook.js.org)
+- [`storybook`](https://github.com/storybookjs/storybook)
 - [`babel-loader`](https://github.com/babel/babel-loader)
 - [`eslint-loader`](https://github.com/MoOx/eslint-loader)
-- [`Phenomic`](https://phenomic.io)
-- [`javascripthon-loader`](https://github.com/Beg-in/javascripthon-loader)
+- [More…](https://www.npmjs.com/browse/depended/find-cache-dir)
 
 ---
 
