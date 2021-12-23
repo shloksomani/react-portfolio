@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shloksomani.github.io/react-portfolio/",
+  "homepage": "https://wdajung.github.io/dj-react-portfolio-01/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.2.0",
