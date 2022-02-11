@@ -8,7 +8,7 @@
     "gh-pages": "^2.2.0",
     "jquery": "^3.4.1",
     "lightbox2": "^2.11.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "normalize.css": "^8.0.1",
     "popper.js": "^1.15.0",
     "react": "^16.8.6",
