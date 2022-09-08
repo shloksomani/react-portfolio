@@ -23,6 +23,7 @@ import * as serviceWorker from './serviceWorker';
 import Navbar from './components/navbar.jsx';
 import Intro from './components/intro.jsx';
 import About from './components/about.jsx';
+import Skills from './components/skills';
 import Portfolio from './components/portfolio.jsx';
 import Contact from './components/contact.jsx';
 import BackToTop from './components/back-top.jsx';
@@ -35,6 +36,7 @@ ReactDOM.render(
         <Navbar />
         <Intro />
         <About />
+        <Skills />
         <Portfolio />
         <Contact />
         <BackToTop />
@@ -42,7 +44,6 @@ ReactDOM.render(
     </React.Fragment>,
 document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+// serviceWorker.unregister();
+serviceWorker.register();

@@ -1,8 +1,8 @@
 import React from "react";
 import $ from "jquery";
 
-import logo1 from "../img/male1.png";
-import logo2 from "../img/male.png";
+import logo1 from "../img/nodejs-icon.svg";
+import logo2 from "../img/nodejs.png";
 
 class Navbar extends React.Component {
   constructor() {
@@ -90,7 +90,7 @@ class Navbar extends React.Component {
             <img
               src={this.state.logo}
               alt="logo"
-              style={{ maxWidth: "100px" }}
+              style={{ maxWidth: "140px" }}
             />
           </a>
           <button
@@ -119,6 +119,11 @@ class Navbar extends React.Component {
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#about">
                   About
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll" href="#skills">
+                  Skills
                 </a>
               </li>
               <li className="nav-item">

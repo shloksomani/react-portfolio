@@ -1,7 +1,28 @@
 import React from "react";
+import axios from "axios";
 import imageOverlay from "../img/earth.jpg";
 
 class Contact extends React.Component {
+
+  async handleSubmit(e){
+    e.preventDefault();
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const subject = document.getElementById("subject").value;
+    const text = document.getElementById("text").value;
+
+    const msg = {
+      name, email, subject, text
+    }
+
+    console.log(msg)
+    const response = await axios.post( '/send-form', msg );
+    console.log(response)
+  }
+
+
+
+
   render() {
     return (
       <section
@@ -20,11 +41,7 @@ class Contact extends React.Component {
                         <h5 className="title-left">Send A Message</h5>
                       </div>
                       <div>
-                        <form
-                          action="https://formspree.io/xdoeonlo"
-                          method="POST"
-                          className="contactForm"
-                        >
+                        <form className="contactForm" id="contact-form" onSubmit={ this.handleSubmit }>
                           <div id="sendmessage">
                             Your message has been sent. Thank you!
                           </div>
@@ -77,6 +94,7 @@ class Contact extends React.Component {
                                 <textarea
                                   className="form-control"
                                   name="message"
+                                  id="text"
                                   rows="5"
                                   data-rule="required"
                                   data-msg="Please write something for us"
@@ -104,33 +122,28 @@ class Contact extends React.Component {
                       <div className="more-info">
                         <p className="lead">
                           Whether you want to get in touch, talk about a project
-                          collaboration, or just say hi, I'd love to hear from
+                          collaboration, or just say hi, I'd like to hear from
                           you.
                           <br />
-                          Simply fill the from and send me an email.
+                          Simply fill the form and send me an email.
                         </p>
-                        {/* <!-- <ul class="list-ico">
-                                <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                                <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                                <li><span class="ion-email"></span> contact@example.com</li>
-                                </ul> --> */}
                       </div>
                       <div className="socials">
                         <ul>
                           <li>
                             <a
-                              href=""
+                              href="https://twitter.com/jignaf84"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-codepen"></i>
+                                <i className="ion-social-twitter"></i>
                               </span>
                             </a>
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://github.com/JuanFunes9"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -141,12 +154,23 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://www.linkedin.com/in/juanfunes-/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
                                 <i className="ion-social-linkedin"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://wa.me/5491159794241"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-whatsapp"></i>
                               </span>
                             </a>
                           </li>
