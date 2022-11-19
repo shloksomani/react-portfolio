@@ -13,7 +13,7 @@
     "popper.js": "^1.15.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "^3.3.0",
+    "react-scripts": "^5.0.1",
     "react-typed": "^1.1.2",
     "typed.js": "^2.0.10"
   },
