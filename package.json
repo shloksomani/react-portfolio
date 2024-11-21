@@ -2,18 +2,17 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shloksomani.github.io/react-portfolio/",
+  "homepage": "https://rahul-jangra.github.io/portfolio/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.2.0",
     "jquery": "^3.4.1",
     "lightbox2": "^2.11.0",
-    "node-sass": "^4.12.0",
     "normalize.css": "^8.0.1",
     "popper.js": "^1.15.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "^3.3.0",
+    "react-scripts": "^5.0.1",
     "react-typed": "^1.1.2",
     "typed.js": "^2.0.10"
   },
@@ -39,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.79.5"
   }
 }

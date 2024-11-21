@@ -1,8 +1,8 @@
 import React from "react";
 import $ from "jquery";
 
-import logo1 from "../img/male1.png";
-import logo2 from "../img/male.png";
+import logo2 from "../img/casting (1).png";
+import logo1 from "../img/casting (2).png";
 
 class Navbar extends React.Component {
   constructor() {
@@ -86,13 +86,6 @@ class Navbar extends React.Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand js-scroll" href="#page-top">
-            <img
-              src={this.state.logo}
-              alt="logo"
-              style={{ maxWidth: "100px" }}
-            />
-          </a>
           <button
             className="navbar-toggler collapsed"
             type="button"

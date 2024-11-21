@@ -1,12 +1,12 @@
 import React from "react";
-import imageOverlay from "../img/earth.jpg";
+// import imageOverlay from "../img/earth.jpg";
 
 class Contact extends React.Component {
   render() {
     return (
       <section
         className="paralax-mf footer-paralax bg-image sect-mt4 route"
-        style={{ backgroundImage: "url(" + imageOverlay + ")" }}
+        // style={{ backgroundImage: "url(" + imageOverlay + ")" }}
       >
         <div className="overlay-mf"></div>
         <div className="container">
@@ -21,9 +21,9 @@ class Contact extends React.Component {
                       </div>
                       <div>
                         <form
-                          action="https://formspree.io/xdoeonlo"
+                          action="https://script.google.com/macros/s/AKfycbzjVSmrrGhHCe0OLZLgO8qWH3LemB3gvTtSGi5ZO2mJpEDgSfciGe_2-rsG3XrL5DM1FA/exec"
                           method="POST"
-                          className="contactForm"
+                          className="gform"
                         >
                           <div id="sendmessage">
                             Your message has been sent. Thank you!
@@ -99,54 +99,36 @@ class Contact extends React.Component {
                     </div>
                     <div className="col-md-6">
                       <div className="title-box-2 pt-4 pt-md-0">
-                        <h5 className="title-left">Get in Touch</h5>
+                        <h5 className="title-left">Contact</h5>
                       </div>
                       <div className="more-info">
-                        <p className="lead">
-                          Whether you want to get in touch, talk about a project
-                          collaboration, or just say hi, I'd love to hear from
-                          you.
-                          <br />
-                          Simply fill the from and send me an email.
-                        </p>
-                        {/* <!-- <ul class="list-ico">
-                                <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                                <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                                <li><span class="ion-email"></span> contact@example.com</li>
-                                </ul> --> */}
+                        <ul class="list-ico">
+                                {/* <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li> */}
+                          <li><span class="ion-ios-telephone"></span> +447340955183</li>
+                          <li><span class="ion-email"></span> vidhijangra27@gmail.com</li>
+                          </ul> 
                       </div>
                       <div className="socials">
                         <ul>
                           <li>
                             <a
-                              href=""
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="ico-circle">
-                                <i className="ion-social-codepen"></i>
-                              </span>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href=""
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="ico-circle">
-                                <i className="ion-social-github"></i>
-                              </span>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href=""
+                              href="https://www.linkedin.com/in/vidhi-jangra-06771428a/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
                                 <i className="ion-social-linkedin"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.instagram.com/vidhi.jangra?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="ico-circle">
+                                <i className="ion-social-instagram"></i>
                               </span>
                             </a>
                           </li>
